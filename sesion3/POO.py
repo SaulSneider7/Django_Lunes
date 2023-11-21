@@ -42,7 +42,7 @@ class Celulares:
         self.modelo = modelo
     
     def llamar(self):
-        return('Estas realizando una llamada con tu ' + self.marca)
+        return('Estas realizando una llamada con tu ' + self.modelo)
 
 celular4 = Celulares("Huawei", "8MP",'Blanco',"P9")
 celular5 = Celulares("Samsung", "18MP",'Negro',"S10")
